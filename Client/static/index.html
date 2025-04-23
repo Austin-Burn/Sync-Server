@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sync Server UI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #2d2d2d;
+            color: #e0e0e0;
+            border: 1px solid #404040;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        button:hover {
+            background-color: #3d3d3d;
+        }
+        button:active {
+            background-color: #4d4d4d;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="handleClick()">Click Me</button>
+    <script>
+        async function handleClick() {
+            try {
+                const response = await fetch('/ui/button');
+                const text = await response.text();
+            } catch (error) {
+                alert('Error: ' + error);
+            }
+        }
+    </script>
+</body>
+</html> 

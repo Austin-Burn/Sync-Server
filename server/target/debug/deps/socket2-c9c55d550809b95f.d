@@ -1,0 +1,11 @@
+C:\Users\austi\Desktop\scripts\sync_server\server\target\debug\deps\libsocket2-c9c55d550809b95f.rmeta: C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\lib.rs C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\sockaddr.rs C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\socket.rs C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\sockref.rs C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\sys\windows.rs
+
+C:\Users\austi\Desktop\scripts\sync_server\server\target\debug\deps\libsocket2-c9c55d550809b95f.rlib: C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\lib.rs C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\sockaddr.rs C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\socket.rs C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\sockref.rs C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\sys\windows.rs
+
+C:\Users\austi\Desktop\scripts\sync_server\server\target\debug\deps\socket2-c9c55d550809b95f.d: C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\lib.rs C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\sockaddr.rs C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\socket.rs C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\sockref.rs C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\sys\windows.rs
+
+C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\lib.rs:
+C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\sockaddr.rs:
+C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\socket.rs:
+C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\sockref.rs:
+C:\Users\austi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.9\src\sys\windows.rs:
