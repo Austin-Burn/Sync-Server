@@ -12,6 +12,16 @@ async fn button_click() -> &'static str {
     "Button clicked!"
 }
 
+async fn send_video() -> &'static str {
+    println!("Sending video!");
+    "Sending video!"
+}
+
+async fn receive_video() -> &'static str {
+    println!("Receiving video!");
+    "Receiving video!"
+}
+
 #[tokio::main]
 async fn main() {
     // Start UDP server
@@ -30,7 +40,9 @@ async fn main() {
     let app = Router::new()
         .route("/", get(hello_world))
         .route("/ui/button", get(button_click))
-        .nest_service("/ui", ServeDir::new("static"));
+        .nest_service("/ui", ServeDir::new("static"))
+        .route("/receiveVideo", get(receive_video))
+        .route("/sendVideo", get(send_video));
 
     let listener = TcpListener::bind("127.0.0.1:3000").await.unwrap();
     println!("HTTP server listening on 127.0.0.1:3000");

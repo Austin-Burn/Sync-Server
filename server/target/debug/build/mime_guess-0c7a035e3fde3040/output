@@ -1,1 +1,0 @@
-cargo:rustc-env=MIME_TYPES_GENERATED_PATH=C:\Users\austi\Desktop\scripts\sync_server\server\target\debug\build\mime_guess-0c7a035e3fde3040\out\mime_types_generated.rs
